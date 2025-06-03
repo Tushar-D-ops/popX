@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    font-family: "Rubik",sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+    
+    /* background-color: #F7F8F9; */
+}
+
+body{
+    background-color: #F7F8F9;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 384px;
+    height: 267px;
+    /* border: 2px solid; */
+    margin: auto;
+    margin-top: 7rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    box-shadow: 1rem 1rem 40rem rgba(0, 0, 0, 0.1);
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-link1,.nav-link2{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 0.36rem;
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.7rem;
+    font-weight: 500;
+}
+
+.nav-link1{
+    background-color: #6c25ff;
+    color: #fff;
+    /* font-weight: 400; */
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.nav-link2{
+    background-color: #b9b1b5;
+    color: #000;
+    /* font-weight: 400; */
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+span{
+    color: red;
+}
